@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Neurology × Clinical AI</title>
+    <meta
+      name="description"
+      content="A refined homepage for neurology, clinical research, and medical AI projects."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Home">
+          <span class="brand-mark"></span>
+          <span class="brand-text">Neurology × AI</span>
+        </a>
+        <nav class="nav-links">
+          <a href="#work">Projects</a>
+          <a href="#method">Method</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Clinical reasoning · Data systems · AI tools</p>
+            <h1 id="hero-title">Clinical AI, designed to feel calm.</h1>
+            <p class="hero-lede">
+              A refined homepage for stroke software, prediction notebooks, registry systems,
+              and practical tools that make clinical data easier to trust.
+            </p>
+            <div class="hero-actions" aria-label="Hero actions">
+              <a class="button primary" href="#work">View Work</a>
+              <a class="button ghost" href="#method">Design Method</a>
+            </div>
+          </div>
+
+          <aside class="device-stage reveal" aria-label="Neurology project visual summary">
+            <figure class="glass-panel">
+              <svg viewBox="0 0 560 420" role="img" aria-labelledby="scan-title scan-desc">
+                <title id="scan-title">Abstract neurovascular study plate</title>
+                <desc id="scan-desc">
+                  A bespoke line-art clinical imaging plate with vessel paths and data markers.
+                </desc>
+                <defs>
+                  <radialGradient id="plateGlow" cx="48%" cy="42%" r="65%">
+                    <stop offset="0%" stop-color="#f7f0e4" />
+                    <stop offset="56%" stop-color="#dfe7e2" />
+                    <stop offset="100%" stop-color="#9fb4b0" />
+                  </radialGradient>
+                  <filter id="grain">
+                    <feTurbulence baseFrequency="0.85" numOctaves="3" seed="7" type="fractalNoise" />
+                    <feColorMatrix type="saturate" values="0" />
+                    <feComponentTransfer>
+                      <feFuncA type="table" tableValues="0 0.22" />
+                    </feComponentTransfer>
+                  </filter>
+                </defs>
+                <rect width="560" height="420" rx="38" fill="url(#plateGlow)" />
+                <rect width="560" height="420" rx="38" filter="url(#grain)" opacity="0.18" />
+                <path
+                  d="M92 295C158 230 164 163 237 146c58-14 89 17 123-16 29-28 26-72 71-86"
+                  fill="none"
+                  stroke="#26312f"
+                  stroke-linecap="round"
+                  stroke-width="13"
+                />
+                <path
+                  d="M165 244c45-12 78 7 111 38 30 28 61 50 109 41 42-8 68-39 91-71"
+                  fill="none"
+                  stroke="#8f3f31"
+                  stroke-linecap="round"
+                  stroke-width="8"
+                />
+                <path
+                  d="M276 282c-12-58 7-101 47-133 25-20 40-41 39-77"
+                  fill="none"
+                  stroke="#d6b45a"
+                  stroke-linecap="round"
+                  stroke-width="6"
+                />
+                <g fill="#f8f4ea" stroke="#26312f" stroke-width="5">
+                  <circle cx="93" cy="295" r="18" />
+                  <circle cx="237" cy="146" r="14" />
+                  <circle cx="431" cy="44" r="16" />
+                  <circle cx="385" cy="323" r="13" />
+                </g>
+                <g class="pulse" fill="#8f3f31">
+                  <circle cx="165" cy="244" r="7" />
+                  <circle cx="276" cy="282" r="7" />
+                  <circle cx="362" cy="72" r="7" />
+                </g>
+                <g stroke="#26312f" stroke-width="1.5" opacity="0.38">
+                  <path d="M42 65h86M42 91h52M42 342h114M411 362h98M436 386h73" />
+                  <path d="M485 74v76M461 98h48" />
+                </g>
+              </svg>
+              <figcaption class="metric-pill">
+                <span>Model clarity</span>
+                <strong>87%</strong>
+              </figcaption>
+            </figure>
+          </aside>
+        </section>
+
+        <section id="work" class="work-section" aria-labelledby="work-title">
+          <div class="section-kicker">Selected Work</div>
+          <h2 id="work-title">One workspace for clinical software.</h2>
+          <div class="work-grid">
+            <article class="work-card reveal">
+              <span class="card-index">01</span>
+              <h3>AIS-LVO Calculator</h3>
+              <p>Clinical prediction interface with bilingual flows, deployment packaging, and runtime checks.</p>
+            </article>
+            <article class="work-card reveal">
+              <span class="card-index">02</span>
+              <h3>Prediction Notebook</h3>
+              <p>PMC-style model reporting with calibration, clinical utility, SHAP, and governance logic.</p>
+            </article>
+            <article class="work-card reveal">
+              <span class="card-index">03</span>
+              <h3>Registry Platform</h3>
+              <p>Structured specialty-disease data systems for case capture, QC, extension, and reuse.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="method" class="method-section" aria-labelledby="method-title">
+          <div class="method-copy reveal">
+            <div class="section-kicker">Working Method</div>
+            <h2 id="method-title">Less noise. More signal.</h2>
+            <p>
+              The page is organized around high-signal project evidence: what the tool does,
+              why it is clinically credible, and how it can be deployed or expanded.
+            </p>
+          </div>
+          <ol class="method-list reveal">
+            <li>
+              <span>Localize</span>
+              <p>Clarify the clinical or workflow problem before choosing technology.</p>
+            </li>
+            <li>
+              <span>Instrument</span>
+              <p>Expose the data, assumptions, and checks that make the artifact trustworthy.</p>
+            </li>
+            <li>
+              <span>Ship</span>
+              <p>Package the result so the visible runtime matches the source intent.</p>
+            </li>
+          </ol>
+        </section>
+      </main>
+
+      <footer id="contact" class="site-footer">
+        <p>Neurology × Clinical AI</p>
+        <a href="https://github.com/Neurology001">GitHub</a>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
